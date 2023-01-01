@@ -1,6 +1,6 @@
 const axios = require("axios")
 const {ROOT_URL} = require("../utils/options")
-const { stripHtml } = require('../lib/stripHtml');
+const { stripHtml } = require("string-strip-html");
 
 async function articlesTrendingController(req, res, next) {
     try {
