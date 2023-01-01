@@ -1,6 +1,6 @@
 const axios = require("axios")
 const {ROOT_URL} = require("../utils/options")
-const { stripHtml } = require("string-strip-html");
+const { stripHtml } = require('../lib/stripHtml');
 
 async function hospitalDepartmentsController(req, res, next) {
     try {
